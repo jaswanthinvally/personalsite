@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-nav {
+    height: 10vh;
+    width: 100%;
+    color: white;
+    background-color: black ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand {
+    margin: 5vh;
+    font-size: large;
+    font-weight: 500;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+}
+.brand:hover {
+    color: gold;
+
+}
+.nav-ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap: 20%;
+    margin-right: 10%;
+}
+.nav-li-1, .nav-li-2, .nav-li-3 {
+    color: white;
+
+}
+.nav-li-1:hover, .nav-li-2:hover, .nav-li-3:hover {
+    color: gold;
+}
+
+
