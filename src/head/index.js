@@ -3,17 +3,15 @@ import './head.css'
 
 export const Head = () => {
   return (
-    <nav className='main-nav'>
-      <div className='brand'>
+    <nav className='navbar main-nav d-flex justify-content-between align-items-center bg-primary'>
+      <div className='brand nav-links'>
         JASH
       </div>
-      <div className='nav-li'>
-      <ul className='nav-ul'>
-        <li className='nav-li-1'>about</li>
-        <li className='nav-li-2'>projects</li>
-        <li className='nav-li-3'>contact</li>
+      <ul className='nav-ul d-flex flex-row gap-3'>
+      <li className='nav-item list-unstyled '><a className='nav-links text-dark'>about</a></li>
+      <li className='nav-item list-unstyled '><a className='nav-links text-dark'>services</a></li>
+      <li className='nav-item list-unstyled '><a className='nav-links text-dark'>projects</a></li>
       </ul>
-      </div>
     </nav>
   )
 }

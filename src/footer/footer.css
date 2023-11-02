@@ -1,0 +1,10 @@
+.s-btn {
+    border-radius: 0px;
+    transition: ease 0.1s;
+}
+.s-btn:hover {
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+
+}
