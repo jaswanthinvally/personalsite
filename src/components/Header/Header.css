@@ -1,0 +1,22 @@
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+span {
+    color: red;
+}
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.about, .skills, .projects, .contact {
+    cursor: pointer;
+    border-bottom: none;
+}
+.about:hover, .skills:hover, .projects:hover, .contact:hover {
+    border-bottom: 2.5px solid red;
+}
